@@ -68,18 +68,19 @@ To access the Oracle DB in a standalone administrative application (ex. standalo
 - **HOSTNAME:** `localhost`
 - **PORT:** `1521`
 - **IDENTIFIER TYPE:** `FREEPDB1`
-- **USERNAME:** `system`
-- **PASSWORD:** `abcdef1002`
 - **ROLE:** `SYSDBA`
+- **USERNAME:** `sys`
+- **PASSWORD:** `abcdef1002`
 - **JDBC URL _(if required)_:** `jdbc:oracle:thin:@//localhost:1521/FREEPDB1`
 
 ### Access Oracle DB in Python
 
 To access the Oracle DB in the project's Python codebase use the connection details of:
 
-- **USERNAME:** `system`
-- **PASSWORD:** `abcdef1002`
 - **DSN:** `localhost:1521/FREEPDB1`
+- **MODE:** `SYSDBA`
+- **USERNAME:** `sys`
+- **PASSWORD:** `abcdef1002`
 
 ## Initialization Scripts
 
