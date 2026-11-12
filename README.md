@@ -35,13 +35,13 @@ Open the cloned repository as a workspace folder in VS Code.
 
 Trust the workspace so that VS Code extensions will run with full permissions.
 
-> image-here
+<img width="2464" height="1684" alt="Screenshot From 2026-11-11 21-37-23" src="https://github.com/user-attachments/assets/33e5d04f-e486-4550-bc8f-d8c50b33582e" />
 
 ### 6. Install Recommendend Extensions
 
 Install the recommended extensions prompted after opening the workspace.
 
-> image-here
+<img width="2464" height="1684" alt="Screenshot From 2026-11-11 21-47-59" src="https://github.com/user-attachments/assets/9be0063d-620d-47d7-a3f1-8cbdcfa6aacc" />
 
 ### 7. Reopen in Container
 
@@ -49,13 +49,13 @@ Install the recommended extensions prompted after opening the workspace.
 
 Reopen the workspace in the Dev Container environment.
 
-> image-here
+<img width="2464" height="1684" alt="Screenshot From 2026-11-11 21-46-38" src="https://github.com/user-attachments/assets/00330795-4f00-41b6-b01e-a85cf8ffbdd4" />
 
 ### 8. Access Dev Container Terminal
 
 The SUN Lab Replica Dev Container environment is now accessible via VS Code's integrated terminal. Use it to access Python.
 
-> image-here
+<img width="2464" height="1684" alt="Screenshot From 2026-11-11 21-59-22" src="https://github.com/user-attachments/assets/e8276754-408a-4513-85dd-3777e7b90ef8" />
 
 ## Accessing the Oracle DB
 
@@ -95,19 +95,19 @@ If you're happy with Oracle's standalone SQL Developer app, then you do not have
 
 Open the "SQL Developer" tab to access the SQL workbench.
 
-> image-here
+<img width="2464" height="1684" alt="Screenshot From 2026-11-11 21-38-05" src="https://github.com/user-attachments/assets/dd56ad8e-7489-4d87-bfd2-355676e70569" />
 
 ### 2. Create a Database Connection
 
 Click the "Create Connection" button to create a new database connection.
 
-> image-here
+<img width="2464" height="1684" alt="Screenshot From 2026-11-11 21-38-24" src="https://github.com/user-attachments/assets/1bdf3dc2-882d-4911-a7d9-b7f61ff409b0" />
 
 ### 3. Add Connection Name
 
 Add a readable name to define the connection. It can be anything pleasing to you.
 
-> image-here
+<img width="2464" height="1684" alt="Screenshot From 2026-11-11 21-38-50" src="https://github.com/user-attachments/assets/442f61b8-e74b-4860-9e69-1e091cffa013" />
 
 ### 4. Configure Authentication
 
@@ -117,30 +117,30 @@ Use the following details:
 - _Username:_ `SYS`
 - _Password:_ `abcdef1002`
 
-> image-here
+<img width="2464" height="1684" alt="Screenshot From 2026-11-11 21-39-07" src="https://github.com/user-attachments/assets/af38c14a-5ac0-49ea-af37-83303c49093b" />
 
 ### 5. Configure Connection
 
 Switch "Connection Type" to `TNS`. It should automatically fill in the rest.
 
-> image-here
+<img width="2464" height="1684" alt="Screenshot From 2026-11-11 21-39-20" src="https://github.com/user-attachments/assets/7bf5b34c-2144-4114-a4af-781e90573d67" />
 
 ### 6. Verify Connection Works
 
 Hit the "Test" button to verify a working connection.
 
-> image-here
+<img width="2464" height="1684" alt="Screenshot From 2026-11-11 21-39-32" src="https://github.com/user-attachments/assets/baf2fb24-e50c-453f-9a34-fcf26d38f182" />
 
 ### 7. Save the Connection
 
 Enable "Save Password" checkbox and then hit the "Save" button. This connection profile will be saved through restarts.
 
-> image-here
+<img width="2464" height="1684" alt="Screenshot From 2026-11-11 21-39-39" src="https://github.com/user-attachments/assets/56199c08-faff-44e1-b14e-a15d3876de09" />
 
 ### 8. Run the Test Query
 
 Open `sql-worksheets/test-student-query.sql`. Then, hit the "Run Statement" button.
 
-> image-here
+<img width="2464" height="1684" alt="Screenshot From 2026-11-11 21-39-58" src="https://github.com/user-attachments/assets/cc79c09a-7424-4df8-8444-75dac84f00fc" />
 
-> image-here
+<img width="2464" height="1684" alt="Screenshot From 2026-11-11 21-40-17" src="https://github.com/user-attachments/assets/ac7bcb92-5d18-44f5-a330-48148e184469" />
