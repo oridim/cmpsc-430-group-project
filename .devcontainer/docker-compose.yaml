@@ -1,0 +1,24 @@
+services:
+  oracle-database:
+    image: container-registry.oracle.com/database/free:23.26.3.0-lite
+    environment:
+      ORACLE_PWD: abcdef1002
+    ports:
+      - "1521:1521"
+    volumes:
+      - oracle-data:/opt/oracle/oradata
+      - ../init-scripts:/opt/oracle/scripts/startup
+  dev-environment:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      TZ: America/New_York
+    network_mode: "service:oracle-database"
+    depends_on:
+      - oracle-database
+    volumes:
+      - ..:/workspace:cached
+    command: sleep infinity
+volumes:
+  oracle-data:

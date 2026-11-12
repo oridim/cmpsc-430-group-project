@@ -1,0 +1,24 @@
+{
+  "name": "SUN Lab Replica & Oracle 23ai",
+  "dockerComposeFile": "docker-compose.yaml",
+  "initializeCommand": "docker compose -f .devcontainer/docker-compose.yaml restart oracle-database",
+  "shutdownAction": "stopCompose",
+  "service": "dev-environment",
+  "workspaceFolder": "/workspace",
+  "userEnvProbe": "none",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "hediet.vscode-drawio",
+        "ms-azuretools.vscode-containers",
+        "ms-azuretools.vscode-docker",
+        "oracle.sql-developer"
+      ],
+      "settings": {
+        "sqldeveloper.connections.tnsConfiguration.path": "/workspace",
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  }
+}
