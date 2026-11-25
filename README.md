@@ -21,6 +21,12 @@ For Windows / macOS developers, Docker Desktop needs to be installed.
 > https://docs.docker.com/desktop/setup/install/windows-install/
 > https://docs.docker.com/desktop/setup/install/mac-install/
 
+#### 2.a. Enable WSL2 Integration (Windows Only)
+
+You will need to enable WSL2 integration after installation. Otherwise, Docker Desktop will not properly work.
+
+<img width="1272" height="721" alt="image" src="https://github.com/user-attachments/assets/bcfdfff3-79d8-419a-bce9-c74e9d82a51a" />
+
 ### 3. Install VS Code
 
 All developers should install VS Code for the best developer experience.
