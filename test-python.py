@@ -2,8 +2,7 @@ import oracledb
 
 with oracledb.connect(
     dsn="localhost:1521/FREEPDB1",
-    mode=oracledb.AUTH_MODE_SYSDBA
-    user="sys",
+    user="system",
     password="abcdef1002",
 ) as connection:
     with connection.cursor() as cursor:

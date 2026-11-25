@@ -1,4 +1,5 @@
 alter session set container = freepdb1;
+alter session set current_schema = system;
 
 drop table if exists Recipe;
 create table if not exists Recipe (
@@ -6,7 +7,6 @@ create table if not exists Recipe (
     ingredientID int,
     amount int, --count was already a keyword
     primary key(mealID, ingredientID)
-
 );
 
 

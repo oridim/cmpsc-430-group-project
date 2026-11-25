@@ -1,4 +1,5 @@
 alter session set container = freepdb1;
+alter session set current_schema = system;
 
 drop table if exists Meal;
 create table if not exists Meal (
@@ -9,7 +10,6 @@ create table if not exists Meal (
    carbohydratesGram float,
    lipidsGram float,
    proteinsGram float
-
 );
 
 insert into Meal (id, name, glutenFree, vegan, carbohydratesGram, lipidsGram, proteinsGram)

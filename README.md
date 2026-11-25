@@ -21,6 +21,12 @@ For Windows / macOS developers, Docker Desktop needs to be installed.
 > https://docs.docker.com/desktop/setup/install/windows-install/
 > https://docs.docker.com/desktop/setup/install/mac-install/
 
+#### 2.a. Enable WSL2 Integration (Windows Only)
+
+You will need to enable WSL2 integration after installation. Otherwise, Docker Desktop will not properly work.
+
+<img width="1272" height="721" alt="image" src="https://github.com/user-attachments/assets/bcfdfff3-79d8-419a-bce9-c74e9d82a51a" />
+
 ### 3. Install VS Code
 
 All developers should install VS Code for the best developer experience.
@@ -68,8 +74,8 @@ To access the Oracle DB in a standalone administrative application (ex. standalo
 - **HOSTNAME:** `localhost`
 - **PORT:** `1521`
 - **IDENTIFIER TYPE:** `FREEPDB1`
-- **ROLE:** `SYSDBA`
-- **USERNAME:** `sys`
+- **ROLE:** `default`
+- **USERNAME:** `system`
 - **PASSWORD:** `abcdef1002`
 - **JDBC URL _(if required)_:** `jdbc:oracle:thin:@//localhost:1521/FREEPDB1`
 
@@ -78,8 +84,7 @@ To access the Oracle DB in a standalone administrative application (ex. standalo
 To access the Oracle DB in the project's Python codebase use the connection details of:
 
 - **DSN:** `localhost:1521/FREEPDB1`
-- **MODE:** `SYSDBA`
-- **USERNAME:** `sys`
+- **USERNAME:** `system`
 - **PASSWORD:** `abcdef1002`
 
 ## Initialization Scripts
@@ -110,33 +115,33 @@ Add a readable name to define the connection. It can be anything pleasing to you
 
 <img width="2464" height="1684" alt="Screenshot From 2026-11-11 21-38-50" src="https://github.com/user-attachments/assets/442f61b8-e74b-4860-9e69-1e091cffa013" />
 
-### 4. Configure Authentication
-
-Use the following details:
-
-- _Role:_ `SYSDBA`
-- _Username:_ `SYS`
-- _Password:_ `abcdef1002`
-
-<img width="2464" height="1684" alt="Screenshot From 2026-11-11 21-39-07" src="https://github.com/user-attachments/assets/af38c14a-5ac0-49ea-af37-83303c49093b" />
-
-### 5. Configure Connection
+### 4. Configure Connection
 
 Switch "Connection Type" to `TNS`. It should automatically fill in the rest.
 
-<img width="2464" height="1684" alt="Screenshot From 2026-11-11 21-39-20" src="https://github.com/user-attachments/assets/7bf5b34c-2144-4114-a4af-781e90573d67" />
+<img width="2464" height="1684" alt="Screenshot From 2026-11-25 18-14-25" src="https://github.com/user-attachments/assets/ecee67ef-265b-4393-8832-679a76ccde2b" />
+
+### 5. Configure Authentication
+
+Use the following details:
+
+- _Role:_ `default`
+- _Username:_ `system`
+- _Password:_ `abcdef1002`
+
+<img width="2464" height="1684" alt="Screenshot From 2026-11-25 18-15-13" src="https://github.com/user-attachments/assets/fdb4208d-33f2-4a4c-a6d0-2f833c159c5e" />
 
 ### 6. Verify Connection Works
 
 Hit the "Test" button to verify a working connection.
 
-<img width="2464" height="1684" alt="Screenshot From 2026-11-11 21-39-32" src="https://github.com/user-attachments/assets/baf2fb24-e50c-453f-9a34-fcf26d38f182" />
+<img width="2464" height="1684" alt="Screenshot From 2026-11-25 18-15-31" src="https://github.com/user-attachments/assets/7c596c47-5029-408a-a87f-626d035968b6" />
 
 ### 7. Save the Connection
 
 Enable "Save Password" checkbox and then hit the "Save" button. This connection profile will be saved through restarts.
 
-<img width="2464" height="1684" alt="Screenshot From 2026-11-11 21-39-39" src="https://github.com/user-attachments/assets/56199c08-faff-44e1-b14e-a15d3876de09" />
+<img width="2464" height="1684" alt="Screenshot From 2026-11-25 18-15-40" src="https://github.com/user-attachments/assets/b955f934-0092-4722-80a5-98af8ff68894" />
 
 ### 8. Run the Test Query
 
