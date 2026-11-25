@@ -68,8 +68,8 @@ To access the Oracle DB in a standalone administrative application (ex. standalo
 - **HOSTNAME:** `localhost`
 - **PORT:** `1521`
 - **IDENTIFIER TYPE:** `FREEPDB1`
-- **ROLE:** `SYSDBA`
-- **USERNAME:** `sys`
+- **ROLE:** `default`
+- **USERNAME:** `system`
 - **PASSWORD:** `abcdef1002`
 - **JDBC URL _(if required)_:** `jdbc:oracle:thin:@//localhost:1521/FREEPDB1`
 
@@ -78,8 +78,7 @@ To access the Oracle DB in a standalone administrative application (ex. standalo
 To access the Oracle DB in the project's Python codebase use the connection details of:
 
 - **DSN:** `localhost:1521/FREEPDB1`
-- **MODE:** `SYSDBA`
-- **USERNAME:** `sys`
+- **USERNAME:** `system`
 - **PASSWORD:** `abcdef1002`
 
 ## Initialization Scripts
@@ -114,8 +113,8 @@ Add a readable name to define the connection. It can be anything pleasing to you
 
 Use the following details:
 
-- _Role:_ `SYSDBA`
-- _Username:_ `SYS`
+- _Role:_ `default`
+- _Username:_ `system`
 - _Password:_ `abcdef1002`
 
 <img width="2464" height="1684" alt="Screenshot From 2026-11-11 21-39-07" src="https://github.com/user-attachments/assets/af38c14a-5ac0-49ea-af37-83303c49093b" />
