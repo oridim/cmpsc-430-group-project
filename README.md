@@ -109,7 +109,13 @@ Add a readable name to define the connection. It can be anything pleasing to you
 
 <img width="2464" height="1684" alt="Screenshot From 2026-11-11 21-38-50" src="https://github.com/user-attachments/assets/442f61b8-e74b-4860-9e69-1e091cffa013" />
 
-### 4. Configure Authentication
+### 4. Configure Connection
+
+Switch "Connection Type" to `TNS`. It should automatically fill in the rest.
+
+<img width="2464" height="1684" alt="Screenshot From 2026-11-25 18-14-25" src="https://github.com/user-attachments/assets/ecee67ef-265b-4393-8832-679a76ccde2b" />
+
+### 5. Configure Authentication
 
 Use the following details:
 
@@ -118,12 +124,6 @@ Use the following details:
 - _Password:_ `abcdef1002`
 
 <img width="2464" height="1684" alt="Screenshot From 2026-11-25 18-15-13" src="https://github.com/user-attachments/assets/fdb4208d-33f2-4a4c-a6d0-2f833c159c5e" />
-
-### 5. Configure Connection
-
-Switch "Connection Type" to `TNS`. It should automatically fill in the rest.
-
-<img width="2464" height="1684" alt="Screenshot From 2026-11-25 18-14-25" src="https://github.com/user-attachments/assets/ecee67ef-265b-4393-8832-679a76ccde2b" />
 
 ### 6. Verify Connection Works
 
