@@ -117,25 +117,25 @@ Use the following details:
 - _Username:_ `system`
 - _Password:_ `abcdef1002`
 
-<img width="2464" height="1684" alt="Screenshot From 2026-11-11 21-39-07" src="https://github.com/user-attachments/assets/af38c14a-5ac0-49ea-af37-83303c49093b" />
+<img width="2464" height="1684" alt="Screenshot From 2026-11-25 18-15-13" src="https://github.com/user-attachments/assets/fdb4208d-33f2-4a4c-a6d0-2f833c159c5e" />
 
 ### 5. Configure Connection
 
 Switch "Connection Type" to `TNS`. It should automatically fill in the rest.
 
-<img width="2464" height="1684" alt="Screenshot From 2026-11-11 21-39-20" src="https://github.com/user-attachments/assets/7bf5b34c-2144-4114-a4af-781e90573d67" />
+<img width="2464" height="1684" alt="Screenshot From 2026-11-25 18-14-25" src="https://github.com/user-attachments/assets/ecee67ef-265b-4393-8832-679a76ccde2b" />
 
 ### 6. Verify Connection Works
 
 Hit the "Test" button to verify a working connection.
 
-<img width="2464" height="1684" alt="Screenshot From 2026-11-11 21-39-32" src="https://github.com/user-attachments/assets/baf2fb24-e50c-453f-9a34-fcf26d38f182" />
+<img width="2464" height="1684" alt="Screenshot From 2026-11-25 18-15-31" src="https://github.com/user-attachments/assets/7c596c47-5029-408a-a87f-626d035968b6" />
 
 ### 7. Save the Connection
 
 Enable "Save Password" checkbox and then hit the "Save" button. This connection profile will be saved through restarts.
 
-<img width="2464" height="1684" alt="Screenshot From 2026-11-11 21-39-39" src="https://github.com/user-attachments/assets/56199c08-faff-44e1-b14e-a15d3876de09" />
+<img width="2464" height="1684" alt="Screenshot From 2026-11-25 18-15-40" src="https://github.com/user-attachments/assets/b955f934-0092-4722-80a5-98af8ff68894" />
 
 ### 8. Run the Test Query
 
