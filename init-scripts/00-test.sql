@@ -1,5 +1,7 @@
 alter session set container = freepdb1;
 
+
+drop table if exists students;
 create table if not exists students (
    id   number generated always as identity primary key,
    name varchar2(100) not null
@@ -28,3 +30,6 @@ insert into students ( name ) values
    ( 'Charlotte Ross' );
 
 commit;
+
+
+
