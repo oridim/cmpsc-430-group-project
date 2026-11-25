@@ -7,7 +7,6 @@ create table if not exists Recipe (
     ingredientID int,
     amount int, --count was already a keyword
     primary key(mealID, ingredientID)
-
 );
 
 

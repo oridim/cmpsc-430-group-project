@@ -10,7 +10,6 @@ create table if not exists Meal (
    carbohydratesGram float,
    lipidsGram float,
    proteinsGram float
-
 );
 
 insert into Meal (id, name, glutenFree, vegan, carbohydratesGram, lipidsGram, proteinsGram)

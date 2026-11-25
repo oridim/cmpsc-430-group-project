@@ -11,7 +11,6 @@ create table if not exists Ingredient (
    lipidsGram float,
    proteinsGram float,
    measurementUnit varchar(30)
-
 );
 
 insert into Ingredient (id, name, glutenFree, vegan, carbohydratesGram, lipidsGram, proteinsGram, measurementUnit)
