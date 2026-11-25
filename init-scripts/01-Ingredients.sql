@@ -1,4 +1,5 @@
 alter session set container = freepdb1;
+alter session set current_schema = system;
 
 drop table if exists Ingredient;
 create table if not exists Ingredient (
